@@ -1,2 +1,2 @@
-# laboratorios-de-redes
-Repositório de estudos práticos em redes com laboratórios desenvolvidos no Cisco Packet Tracer
+# projetos-do-mulher-digital
+Espaço dedicado aos laboratórios práticos desenvolvidos no Cisco Packet Tracer durante o programa Mulher Digital, com foco em redes de computadores.
