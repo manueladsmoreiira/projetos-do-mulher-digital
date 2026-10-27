@@ -67,23 +67,10 @@ O teste indicou conectividade entre os dispositivos na rede local.
 
 ## Resultados
 
-*Adicione aqui uma captura de tela da topologia completa no Cisco Packet Tracer.*
+![Topologia da rede SOHO](topologia.png)
 
-![Topologia da rede SOHO](t.png)
+![Teste de conectividade entre PC0 e a impressora](teste-ping.png)
 
-### Configuração da Rede Wi-Fi
-
-*Adicione aqui uma captura de tela das configurações de SSID e segurança do roteador WRT300N.*
-
-<!-- Substitua pelo caminho da imagem no repositório -->
-![Configuração da rede Wi-Fi](imagens/configuracao-wifi.png)
-
-### Teste de Conectividade
-
-*Adicione aqui uma captura de tela do Command Prompt mostrando o comando ping e as respostas recebidas.*
-
-<!-- Substitua pelo caminho da imagem no repositório -->
-![Teste de conectividade entre PC0 e a impressora](imagens/teste-ping.png)
 
 
 
