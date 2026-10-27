@@ -14,10 +14,6 @@ O **HTTP (Hypertext Transfer Protocol)** é um protocolo da camada de aplicaçã
 
 A configuração desses serviços permite compreender como os protocolos trabalham em conjunto para que um cliente consiga acessar uma página web utilizando um nome de domínio.
 
-## Ferramenta utilizada
-
-- Cisco Packet Tracer
-
 ## Topologia da rede
 
 A topologia foi construída utilizando um switch, um computador cliente e um servidor central.
