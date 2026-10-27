@@ -103,5 +103,4 @@ A análise das informações das PDUs permitiu observar os protocolos envolvidos
 
 ## Resultado
 
-!(topologia.png)
-
+![Página web acessada pelo PC-Cliente](topologia.png)
