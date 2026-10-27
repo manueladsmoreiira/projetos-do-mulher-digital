@@ -1,12 +1,12 @@
 # Laboratório 02 — Configuração de HTTP e DNS
 
-## 📌 Objetivo
+## Objetivo
 
 Este laboratório teve como objetivo construir uma rede funcional, configurar os serviços de aplicação e testar a camada de transporte utilizando o Cisco Packet Tracer.
 
 A atividade envolveu a configuração de endereços IP, a ativação dos serviços HTTP, HTTPS e DNS, a realização de testes de conectividade e a análise dos protocolos envolvidos na comunicação por meio do modo Simulation.
 
-## 🌐 O que são os serviços DNS e HTTP?
+## O que são os serviços DNS e HTTP?
 
 O **DNS (Domain Name System)** é responsável por traduzir nomes de domínio, como `www.aula.com`, em endereços IP, permitindo que os dispositivos localizem os servidores sem que seja necessário memorizar seus endereços IP.
 
@@ -14,11 +14,11 @@ O **HTTP (Hypertext Transfer Protocol)** é um protocolo da camada de aplicaçã
 
 A configuração desses serviços permite compreender como os protocolos trabalham em conjunto para que um cliente consiga acessar uma página web utilizando um nome de domínio.
 
-## 🛠️ Ferramenta utilizada
+## Ferramenta utilizada
 
 - Cisco Packet Tracer
 
-## 🖥️ Topologia da rede
+## Topologia da rede
 
 A topologia foi construída utilizando um switch, um computador cliente e um servidor central.
 
@@ -28,7 +28,7 @@ A topologia foi construída utilizando um switch, um computador cliente e um ser
 
 Os dispositivos foram conectados ao switch utilizando cabos diretos (*Straight-Through*).
 
-## 🌐 Endereçamento IP
+## Endereçamento IP
 
 Os dispositivos foram configurados com endereços IP pertencentes à rede `192.168.1.0/24`.
 
@@ -39,7 +39,7 @@ Os dispositivos foram configurados com endereços IP pertencentes à rede `192.1
 
 No PC-Cliente, o endereço `192.168.1.10` foi configurado como servidor DNS.
 
-## ⚙️ Configuração dos serviços
+## Configuração dos serviços
 
 ### Servidor HTTP e HTTPS
 
@@ -61,7 +61,7 @@ O serviço DNS foi ativado no Servidor-Central e configurado com o seguinte regi
 
 Dessa forma, o nome `www.aula.com` passou a apontar para o endereço IP do servidor web.
 
-## 🧪 Testes de conectividade e resolução de nomes
+## Testes de conectividade e resolução de nomes
 
 Após as configurações, foram realizados testes no PC-Cliente por meio do **Command Prompt**.
 
@@ -93,7 +93,7 @@ No navegador do PC-Cliente, foi acessado o endereço:
 
 O teste permitiu verificar o funcionamento conjunto do serviço DNS, responsável pela resolução do nome, e do serviço HTTP, responsável pela entrega da página web.
 
-## 🔎 Simulação de protocolos
+## Simulação de protocolos
 
 Foi utilizado o modo **Simulation** do Cisco Packet Tracer para acompanhar as etapas da comunicação entre o PC-Cliente e o Servidor-Central.
 
@@ -101,4 +101,7 @@ Foram selecionados os filtros dos protocolos ICMP, DNS, TCP e HTTP, permitindo o
 
 A análise das informações das PDUs permitiu observar os protocolos envolvidos e compreender como as camadas de transporte e aplicação participam da comunicação entre cliente e servidor.
 
-## 📷 Resultado
+## Resultado
+
+!(topologia.png)
+
